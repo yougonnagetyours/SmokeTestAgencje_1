@@ -65,20 +65,20 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Brzmi znajomo?</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <p class="text-5xl mb-4">✋</p>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col justify-center h-full">
+                    <p class="text-6xl mb-4">✋</p>
                     <p class="text-gray-700">Tracisz dni na ręczne tworzenie raportów dla klientów.</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <p class="text-5xl mb-4">📊</p>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col justify-center h-full">
+                    <p class="text-6xl mb-4">📊</p>
                     <p class="text-gray-700">Gubisz się w danych rozproszonych po różnych narzędziach.</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <p class="text-5xl mb-4">🔄</p>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col justify-center h-full">
+                    <p class="text-6xl mb-4">🔄</p>
                     <p class="text-gray-700">Każdy nowy klient to chaos w komunikacji i onboardingu.</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-                    <p class="text-5xl mb-4">😰</p>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center flex flex-col justify-center h-full">
+                    <p class="text-6xl mb-4">😰</p>
                     <p class="text-gray-700">Twoi najlepsi ludzie marnują czas na powtarzalne zadania.</p>
                 </div>
             </div>
@@ -93,29 +93,59 @@
                 <p class="text-gray-600 mt-4">Oferuję bezpłatny 30-minutowy audyt, w którym:</p>
             </div>
             <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div class="p-6">
-                    <div class="text-3xl font-bold text-indigo-600 mb-2">1.</div>
-                    <h3 class="text-xl font-semibold mb-2">Zmapuję wąskie gardła</h3>
-                    <p class="text-gray-600">Zidentyfikujemy procesy, które najbardziej spowalniają Twój zespół.</p>
+                <!-- Kafel 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl font-bold text-indigo-600 mb-3">1.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Zmapuję wąskie gardła</h3>
+                    <p class="text-gray-600">Zidentyfikuję procesy, które najbardziej spowalniają Twój zespół.</p>
                 </div>
-                <div class="p-6">
-                    <div class="text-3xl font-bold text-indigo-600 mb-2">2.</div>
-                    <h3 class="text-xl font-semibold mb-2">Pokażę możliwości</h3>
-                    <p class="text-gray-600">Przedstawimy konkretne narzędzia i scenariusze automatyzacji.</p>
+                <!-- Kafel 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl font-bold text-indigo-600 mb-3">2.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Pokażę możliwości</h3>
+                    <p class="text-gray-600">Przedstawię konkretne narzędzia i scenariusze automatyzacji.</p>
                 </div>
-                <div class="p-6">
-                    <div class="text-3xl font-bold text-indigo-600 mb-2">3.</div>
-                    <h3 class="text-xl font-semibold mb-2">Oszacuję oszczędności</h3>
-                    <p class="text-gray-600">Wskażemy, ile czasu i pieniędzy możesz zaoszczędzić co miesiąc.</p>
+                <!-- Kafel 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl font-bold text-indigo-600 mb-3">3.</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Oszacuję oszczędności</h3>
+                    <p class="text-gray-600">Wskażę, ile czasu i pieniędzy możesz zaoszczędzić co miesiąc.</p>
                 </div>
             </div>
-             <div class="mt-12 bg-gray-100 p-8 rounded-lg max-w-4xl mx-auto">
-                <h4 class="text-xl font-semibold text-center mb-4">Przykładowe usprawnienia:</h4>
-                <ul class="space-y-2 text-gray-700 list-disc list-inside">
-                    <li>Dashboard KPI zbierający dane z wszystkich kampanii automatycznie</li>
-                    <li>Automatyczne raporty dla klientów (Google Ads, Analytics, FB Ads)</li>
-                    <li>Standaryzacja procesów onboardingu i obsługi klienta</li>
-                </ul>
+             <div class="mt-16 max-w-4xl mx-auto">
+                <h4 class="text-2xl font-bold text-center mb-8 text-gray-900">Przykładowe usprawnienia</h4>
+                <div class="space-y-6">
+                    <!-- Usprawnienie 1 -->
+                    <div class="flex items-start bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex-shrink-0">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V7a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        </div>
+                        <div class="ml-4">
+                            <h5 class="text-lg font-semibold text-gray-800">Automatyczne dashboardy KPI</h5>
+                            <p class="text-gray-600">Zbieraj dane ze wszystkich kampanii w jednym miejscu, bez ręcznego kopiowania.</p>
+                        </div>
+                    </div>
+                    <!-- Usprawnienie 2 -->
+                    <div class="flex items-start bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex-shrink-0">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                        </div>
+                        <div class="ml-4">
+                            <h5 class="text-lg font-semibold text-gray-800">Automatyczne raporty dla klientów</h5>
+                            <p class="text-gray-600">Wysyłaj regularne podsumowania (Google Ads, Analytics, FB Ads) bez kiwnięcia palcem.</p>
+                        </div>
+                    </div>
+                    <!-- Usprawnienie 3 -->
+                    <div class="flex items-start bg-white p-6 rounded-lg shadow-sm">
+                        <div class="flex-shrink-0">
+                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        </div>
+                        <div class="ml-4">
+                            <h5 class="text-lg font-semibold text-gray-800">Standaryzacja procesów</h5>
+                            <p class="text-gray-600">Usprawnij onboarding i obsługę klienta dzięki powtarzalnym, zautomatyzowanym krokom.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -172,9 +202,16 @@
 
     <!-- Sekcja 6: Footer -->
     <footer class="bg-gray-800 text-gray-400 py-10">
-        <div class="container mx-auto px-6 text-center">
-            <p class="mt-2 max-w-md mx-auto">"Cześć! Jestem Michał. Optymalizuję procesy w przemyśle automotive (PLM/Teamcenter) i wiem, jak chaos w systemach zjada czas. Teraz pomagam agencjom automatyzować ich powtarzalne zadania."</p>
-            <p class="mt-4">Email: [Twój adres email]</p>
+        <div class="container mx-auto px-6 text-center md:text-left flex flex-col md:flex-row items-center justify-center md:justify-center">
+            <!-- Image -->
+            <div class="mb-4 md:mb-0 md:mr-6">
+                <img src="images/Michal Potoczny 1.jpg" alt="Michał Potoczny" class="rounded-full w-24 h-24 object-cover border-2 border-indigo-600">
+            </div>
+            <!-- Text Content -->
+            <div>
+                <p class="mt-2 max-w-md mx-auto md:mx-0">"Cześć! Jestem Michał. Optymalizuję procesy w przemyśle automotive (PLM/Teamcenter) i wiem, jak chaos w systemach zjada czas. Teraz pomagam agencjom automatyzować ich powtarzalne zadania."</p>
+                <p class="mt-4">Email: [Twój adres email]</p>
+            </div>
         </div>
     </footer>
 

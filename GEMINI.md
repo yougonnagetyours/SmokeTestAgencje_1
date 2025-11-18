@@ -55,6 +55,14 @@ Oferuję **bezpłatny 30-minutowy audyt**, w którym:
 **Embed Tally Form** (instrukcja integracji poniżej)
 
 ### **Sekcja 6: Footer**
+
+**Layout:**
+- **Zdjęcie + Tekst** (flexbox: zdjęcie po lewej, tekst po prawej; na mobile: zdjęcie nad tekstem)
+- **Zdjęcie:** `Michal Potoczny 1.jpg` (znajduje się w `images/`)
+  - Format: okrągły (circular crop)
+  - Rozmiar: ~80-100px
+  - Profesjonalne zdjęcie headshot z okularami na neutralnym niebieskim tle
+
 **O mnie:**
 *"Cześć! Jestem Michał. Optymalizuję procesy w przemyśle automotive (PLM/Teamcenter) i wiem, jak chaos w systemach zjada czas. Teraz pomagam agencjom automatyzować ich powtarzalne zadania."*
 
@@ -109,8 +117,11 @@ Zostaw tylko komentarze w kodzie gdzie należy wstawić tracking:
 2. Responsywny design (mobile + desktop)
 3. Placeholder dla trackingu (z TODO comments)
 4. Integracja z Tally form (Michał utworzy formularz i doda embed)
-5. Kod źródłowy w GitHub repo
-6. Krótka instrukcja jak zmieniać treść i deploy changes
+5. Zdjęcie `Michal Potoczny 1.jpg` zintegrowane w footer (circular crop)
+6. Kod źródłowy w GitHub repo
+7. Krótka instrukcja jak zmieniać treść i deploy changes
+
+**Uwaga:** Zdjęcie `Michal Potoczny 1.jpg` znajduje się w folderze `images/`
 
 ---
 
