@@ -1,89 +1,120 @@
-BRIEF: Landing Page dla 7-dniowego Smoke Testu
+# BRIEF: Landing Page dla 7-dniowego Smoke Testu (UPDATED)
 
-  🎯 Kontekst
+## 🎯 Kontekst
+Testujemy usługę automatyzacji procesów dla małych agencji marketingowych (10-25 osób). Landing page ma zbierać zapisy na **bezpłatny 30-minutowy audyt** i weryfikować zainteresowanie rynku.
 
-  Testujemy usługę automatyzacji procesów dla małych agencji marketingowych (10-25 osób). Landing page ma zbierać zapisy na bezpłatny 30-minutowy audyt
-  i weryfikować zainteresowanie rynku.
+## 🛠️ Stack Techniczny
+- **HTML + Tailwind CSS** (via CDN)
+- **Vanilla JavaScript** (prosty, bez frameworków)
+- **Deployment:** Netlify lub Vercel (darmowy plan)
+- **Formularz:** Tally.so (embed iframe)
+- **Domena:** michalpotoczny.com (Michał podłączy później)
 
-  🛠️ Stack Techniczny
+## 📋 Struktura Landing Page
 
-  - HTML + Tailwind CSS (via CDN)
-  - Vanilla JavaScript (prosty, bez frameworków)
-  - Deployment: Netlify lub Vercel (darmowy plan)
-  - Formularz: Tally.so (embed iframe)
+### **Header/Navbar**
+- **Logo/Brand:** "**Michał Potoczny**" (lewy górny róg)
+- **Opcjonalnie podtytuł:** "Automatyzacja dla Agencji" (mniejszym fontem pod imieniem)
 
-  📋 Struktura Landing Page
+### **Sekcja 1: Hero** (Above the fold)
+- **Nagłówek:** "Automatyzacja Twojej agencji w 7 dni – bezpłatny audyt"
+- **Podnagłówek:** "Przestań tracić czas na ręczne raporty i powtarzalne zadania. Pokażemy Ci, jak zaoszczędzić 10+ godzin miesięcznie."
+- **CTA Button:** "Umów bezpłatny audyt" (scroll do formularza)
+- **Visual:** Opcjonalnie – prosty ilustracja/ikona dashboardu lub automatyzacji
 
-  Sekcja 1: Hero (Above the fold)
+### **Sekcja 2: Problem** (Ból)
+**Nagłówek:** "Brzmi znajomo?"
+- ✋ Tracisz dni na ręczne tworzenie raportów dla klientów
+- 📊 Gubisz się w danych rozproszonych po różnych narzędziach
+- 🔄 Każdy nowy klient to chaos w komunikacji i onboardingu
+- 😰 Twoi najlepsi ludzie marnują czas na powtarzalne zadania zamiast tworzyć
 
-  - Nagłówek: "Automatyzacja Twojej agencji w 7 dni – bezpłatny audyt"
-  - Podnagłówek: "Przestań tracić czas na ręczne raporty i powtarzalne zadania. Pokażemy Ci, jak zaoszczędzić 10+ godzin miesięcznie."
-  - CTA Button: "Umów bezpłatny audyt" (scroll do formularza)
-  - Visual: Opcjonalnie – prosty ilustracja/ikona dashboardu lub automatyzacji
+### **Sekcja 3: Rozwiązanie**
+**Nagłówek:** "Jak możemy pomóc?"
+Oferujemy **bezpłatny 30-minutowy audyt**, w którym:
+1. Zmapujemy Twoje największe wąskie gardła
+2. Pokażemy konkretne możliwości automatyzacji
+3. Wskażemy, ile czasu i pieniędzy możesz zaoszczędzić
 
-  Sekcja 2: Problem (Ból)
+**Przykładowe usprawnienia:**
+- Dashboard KPI zbierający dane z wszystkich kampanii automatycznie
+- Automatyczne raporty dla klientów (Google Ads, Analytics, FB Ads)
+- Standaryzacja procesów onboardingu i obsługi klienta
 
-  Nagłówek: "Brzmi znajomo?"
-  - ✋ Tracisz dni na ręczne tworzenie raportów dla klientów
-  - 📊 Gubisz się w danych rozproszonych po różnych narzędziach
-  - 🔄 Każdy nowy klient to chaos w komunikacji i onboardingu
-  - 😰 Twoi najlepsi ludzie marnują czas na powtarzalne zadania zamiast tworzyć
+### **Sekcja 4: Dla kogo?**
+**Nagłówek:** "To dla Ciebie, jeśli:"
+- Prowadzisz agencję marketingową (SEO, Ads, social media)
+- Masz 10-25 osób w zespole
+- Czujesz, że chaos operacyjny blokuje Wam rozwój
+- Chcesz skalować bez zatrudniania kolejnych osób do "gaszenia pożarów"
 
-  Sekcja 3: Rozwiązanie
+### **Sekcja 5: Formularz Zapisu**
+**Nagłówek:** "Zapisz się na bezpłatny audyt"
+**Podnagłówek:** "Tylko 5 miejsc w tym tygodniu"
 
-  Nagłówek: "Jak możemy pomóc?"
-  Oferujemy bezpłatny 30-minutowy audyt, w którym:
-  1. Zmapujemy Twoje największe wąskie gardła
-  2. Pokażemy konkretne możliwości automatyzacji
-  3. Wskażemy, ile czasu i pieniędzy możesz zaoszczędzić
+**Embed Tally Form** (instrukcja integracji poniżej)
 
-  Przykładowe usprawnienia:
-  - Dashboard KPI zbierający dane z wszystkich kampanii automatycznie
-  - Automatyczne raporty dla klientów (Google Ads, Analytics, FB Ads)
-  - Standaryzacja procesów onboardingu i obsługi klienta
+### **Sekcja 6: Footer**
+**O mnie:**
+*"Cześć! Jestem Michał. Optymalizuję procesy w przemyśle automotive (PLM/Teamcenter) i wiem, jak chaos w systemach zjada czas. Teraz pomagam agencjom automatyzować ich powtarzalne zadania."*
 
-  Sekcja 4: Dla kogo?
+**Email kontaktowy:** [zostaw placeholder - Michał poda]
 
-  Nagłówek: "To dla Ciebie, jeśli:"
-  - Prowadzisz agencję marketingową (SEO, Ads, social media)
-  - Masz 10-25 osób w zespole
-  - Czujesz, że chaos operacyjny blokuje Wam rozwój
-  - Chcesz skalować bez zatrudniania kolejnych osób do "gaszenia pożarów"
+## 📝 Formularz (Tally)
 
-  Sekcja 5: Formularz Zapisu
+**Pola do zebrania:**
+1. **Imię** (wymagane)
+2. **Email** (wymagane)
+3. **Nazwa agencji** (wymagane)
+4. **Pytanie 1:** "Jaki największy ból odczuwasz w zarządzaniu swoją agencją?" (textarea, wymagane)
+5. **Pytanie 2:** "Czy rozważyłbyś inwestycję w automatyczne narzędzia (dashboard, integracje), jeśli zwróciłyby Ci 10+ godzin pracy miesięcznie?" (radio: Tak / Raczej tak / Nie jestem pewien / Raczej nie)
 
-  Nagłówek: "Zapisz się na bezpłatny audyt"
-  Podnagłówek: "Tylko 5 miejsc w tym tygodniu"
+**Po wysłaniu:** Przekierowanie na stronę "Dziękujemy" z komunikatem: "Dziękujemy! Skontaktuję się z Tobą w ciągu 24h z propozycją terminu audytu."
 
-  Embed Tally Form (instrukcja integracji poniżej)
+**Instrukcja dla Tally:**
+- Stwórz konto na tally.so (darmowe)
+- Utwórz formularz z polami powyżej
+- Skopiuj kod embed (iframe)
+- Wklej do sekcji 5 landing page'a
 
-  Sekcja 6: Footer
+## 📊 Tracking & Integracje
 
-  - Imię autora: Michał
-  - Krótka notka: "Specjalizuję się w automatyzacji procesów biznesowych i budowie dashboardów dla agencji."
-  - Email kontaktowy: [zostaw placeholder - Michał poda]
+**POMIŃ NA RAZIE** - Michał doda później Google Analytics 4 i Meta Pixel.
 
-  📝 Formularz (Tally)
+Zostaw tylko komentarze w kodzie gdzie należy wstawić tracking:
+```html
+<head>
+  <!-- TODO: Google Analytics 4 - do dodania później -->
 
-  Pola do zebrania:
-  1. Imię (wymagane)
-  2. Email (wymagane)
-  3. Nazwa agencji (wymagane)
-  4. Pytanie 1: "Jaki największy ból odczuwasz w zarządzaniu swoją agencją?" (textarea, wymagane)
-  5. Pytanie 2: "Czy rozważyłbyś inwestycję w automatyczne narzędzia (dashboard, integracje), jeśli zwróciłyby Ci 10+ godzin pracy miesięcznie?" (radio:
-   Tak / Raczej tak / Nie jestem pewien / Raczej nie)
+  <!-- TODO: Meta (Facebook) Pixel - do dodania później -->
+</head>
+```
 
-   🎨 Design Guidelines
+## 🎨 Design Guidelines
+- **Kolory:** Profesjonalne, czyste – np. niebieski (#2563EB) + biały + szary
+- **Font:** System fonts (Tailwind default) dla szybkości
+- **Mobile-first:** Responsywne na wszystkich urządzeniach
+- **Minimalistyczne:** Bez rozpraszaczy, focus na CTA
+- **CTA Button:** Wyraźny, kontrastowy, wielokrotnie na stronie (hero + przed formularzem)
+- **Personal touch:** Brand "Michał Potoczny" – profesjonalny ale ludzki
 
-  - Kolory: Profesjonalne, czyste – np. niebieski (#2563EB) + biały + szary
-  - Font: System fonts (Tailwind default) dla szybkości
-  - Mobile-first: Responsywne na wszystkich urządzeniach
-  - Minimalistyczne: Bez rozpraszaczy, focus na CTA
-  - CTA Button: Wyraźny, kontrastowy, wielokrotnie na stronie (hero + przed formularzem)
+POMIŃ NA RAZIE Deployment
+## 🚀 Deployment
+1. Push kod do GitHub repo
+2. Połącz z Netlify (darmowy plan)
+3. Domyślnie użyj subdomeny Netlify: `nazwa.netlify.app`
+4. Michał później podłączy domenę michalpotoczny.com
 
-  ✅ Deliverables
+## ✅ Deliverables
+1. Działający landing page wdrożony na Netlify/Vercel
+2. Responsywny design (mobile + desktop)
+3. Placeholder dla trackingu (z TODO comments)
+4. Integracja z Tally form (Michał utworzy formularz i doda embed)
+5. Kod źródłowy w GitHub repo
+6. Krótka instrukcja jak zmieniać treść i deploy changes
 
-  1. Działający landing page wdrożony na Netlify/Vercel
-  2. Responsywny design (mobile + desktop)
-  3. Placeholder dla GA4 i Meta Pixel (z instrukcją gdzie Michał wklei ID)
-  4. Integracja z Tally form
+---
+
+**Czas realizacji:** 1-2h
+
+**✅ Gotowe do przekazania asystentowi AI!**
