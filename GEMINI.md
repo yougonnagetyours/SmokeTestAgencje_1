@@ -18,7 +18,7 @@ Testujemy usługę automatyzacji procesów dla małych agencji marketingowych (1
 
 ### **Sekcja 1: Hero** (Above the fold)
 - **Nagłówek:** "Automatyzacja Twojej agencji w 7 dni – bezpłatny audyt"
-- **Podnagłówek:** "Przestań tracić czas na ręczne raporty i powtarzalne zadania. Pokażemy Ci, jak zaoszczędzić 10+ godzin miesięcznie."
+- **Podnagłówek:** "Przestań tracić czas na ręczne raporty i powtarzalne zadania. Pokażę Ci, jak zaoszczędzić 10+ godzin miesięcznie."
 - **CTA Button:** "Umów bezpłatny audyt" (scroll do formularza)
 - **Visual:** Opcjonalnie – prosty ilustracja/ikona dashboardu lub automatyzacji
 
@@ -30,11 +30,11 @@ Testujemy usługę automatyzacji procesów dla małych agencji marketingowych (1
 - 😰 Twoi najlepsi ludzie marnują czas na powtarzalne zadania zamiast tworzyć
 
 ### **Sekcja 3: Rozwiązanie**
-**Nagłówek:** "Jak możemy pomóc?"
-Oferujemy **bezpłatny 30-minutowy audyt**, w którym:
-1. Zmapujemy Twoje największe wąskie gardła
-2. Pokażemy konkretne możliwości automatyzacji
-3. Wskażemy, ile czasu i pieniędzy możesz zaoszczędzić
+**Nagłówek:** "Jak mogę pomóc?"
+Oferuję **bezpłatny 30-minutowy audyt**, w którym:
+1. Zmapuję Twoje największe wąskie gardła
+2. Pokażę konkretne możliwości automatyzacji
+3. Wskażę, ile czasu i pieniędzy możesz zaoszczędzić
 
 **Przykładowe usprawnienia:**
 - Dashboard KPI zbierający dane z wszystkich kampanii automatycznie
@@ -98,7 +98,6 @@ Zostaw tylko komentarze w kodzie gdzie należy wstawić tracking:
 - **CTA Button:** Wyraźny, kontrastowy, wielokrotnie na stronie (hero + przed formularzem)
 - **Personal touch:** Brand "Michał Potoczny" – profesjonalny ale ludzki
 
-POMIŃ NA RAZIE Deployment
 ## 🚀 Deployment
 1. Push kod do GitHub repo
 2. Połącz z Netlify (darmowy plan)
