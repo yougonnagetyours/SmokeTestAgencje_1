@@ -37,9 +37,9 @@ Oferuję **bezpłatny 30-minutowy audyt**, w którym:
 3. Wskażę, ile czasu i pieniędzy możesz zaoszczędzić
 
 **Przykładowe usprawnienia:**
-- Dashboard KPI zbierający dane z wszystkich kampanii automatycznie
-- Automatyczne raporty dla klientów (Google Ads, Analytics, FB Ads)
-- Standaryzacja procesów onboardingu i obsługi klienta
+- **Inteligentne raporty z AI:** Nie tylko dane, ale gotowe insights, wykrywanie anomalii i rekomendacje dla każdego klienta
+- Dashboard KPI zbierający dane z wszystkich kampanii w czasie rzeczywistym
+- Automatyzacja powtarzalnych zadań i standaryzacja procesów
 
 ### **Sekcja 4: Dla kogo?**
 **Nagłówek:** "To dla Ciebie, jeśli:"
@@ -58,7 +58,7 @@ Oferuję **bezpłatny 30-minutowy audyt**, w którym:
 
 **Layout:**
 - **Zdjęcie + Tekst** (flexbox: zdjęcie po lewej, tekst po prawej; na mobile: zdjęcie nad tekstem)
-- **Zdjęcie:** `Michal Potoczny 1.jpg` (znajduje się w `images/`)
+- **Zdjęcie:** `Michal Potoczny 1.jpg` (znajduje się w `smoke_test_assets/`)
   - Format: okrągły (circular crop)
   - Rozmiar: ~80-100px
   - Profesjonalne zdjęcie headshot z okularami na neutralnym niebieskim tle
@@ -121,7 +121,7 @@ Zostaw tylko komentarze w kodzie gdzie należy wstawić tracking:
 6. Kod źródłowy w GitHub repo
 7. Krótka instrukcja jak zmieniać treść i deploy changes
 
-**Uwaga:** Zdjęcie `Michal Potoczny 1.jpg` znajduje się w folderze `images/`
+**Uwaga:** Zdjęcie `Michal Potoczny 1.jpg` znajduje się w folderze `smoke_test_assets/` - skopiuj je do projektu landing page'a (np. folder `/assets/` lub `/images/`)
 
 ---
 
