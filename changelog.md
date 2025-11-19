@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025-11-19
+
+### Naprawione błędy
+-   Naprawiono przepełnienie formularza Tally poprzez usunięcie zbędnego elementu `div` opakowującego i dostosowanie paddingu kontenera.
+
+### Nowe funkcje
+-   Dodano favicon (ikona strony) w formacie SVG dla lepszego brandingu.
+
 ## 2025-11-18
 
 ### Nowe funkcje
